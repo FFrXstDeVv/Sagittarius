@@ -1,0 +1,10 @@
+cmake-build-debug/
+cmake-build-release/
+.idea/
+*.iso
+*.img
+*.o
+*.a
+CMakeFiles/
+CMakeCache.txt
+Makefile
