@@ -1,11 +1,11 @@
 # Rust
 target/
 
-# CLion
+# IDE
 .idea/
 *.iml
 
-# OS специфика
+# OS specials
 *.o
 *.bin
 *.iso
