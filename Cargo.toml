@@ -14,6 +14,8 @@ panic = "abort"
 bootloader = "0.9"
 volatile = "0.2.6"
 spin = "0.5.2"
+x86_64 = "0.15.4"
+pic8259 = "0.11.0"
 
 [dependencies.lazy_static]
 version = "1.0"
@@ -22,3 +24,7 @@ features = ["spin_no_std"]
 
 [package.metadata.bootimage]
 run-command = ["qemu-system-x86_64", "-drive", "format=raw,file={}", "-serial", "stdio"]
+
+[[test]]
+name = "stack_overflow"
+harness = false
