@@ -3,11 +3,48 @@
 [![License: EUPL v1.2](https://img.shields.io/badge/License-EUPL%20v1.2-blue.svg)](https://joinup.ec.europa.eu/software/page/eupl)
 [![Rust](https://img.shields.io/badge/Language-Rust-orange.svg?logo=rust)](https://www.rust-lang.org/)
 
+## 🔍 About
 
+### Idea and the concept
+
+Sagittarius OS is designed to be an OS with great features in mind, such as:
+
+- Recovery Console with a better terminal for best repairability
+- Open source
+- Modern features
+- Performance
+
+<table>
+  <tr>
+    <td>
+      <img width="480" height="480" alt="Sagittarius A*, lines show magnetic field polarisation." src="https://github.com/user-attachments/assets/bb34c5ec-c508-4b14-a7b0-05633fb026da" />
+    </td>
+    <td>
+
+### Nomenclature
+
+The name of this OS "Sagittarius OS" comes from Sagittarius A*, the black hole centered in the Milky Way, keeping it all in orbit.
+The short name for Sagittarius OS is SGS OS.
+
+- Named so for Sagittarius-A* being a __high-density object__, while staying __very compact__ and __very bright__.
+
+    </td>
+  </tr>
+</table>
+
+### Roadmap
+
+- [x] Bootloader
+- [x] VGA output
+- [ ] Paging
+- [ ] Heap allocator
+- [ ] Terminal
+- [ ] Custom FS
+- [ ] Recovery Terminal
 
 
 ### Support me
-- ETH: 0x0aD104599eA5B97Cd43BAA19830bE885F16Bc1c6
+- ♦ ETH: 0x0aD104599eA5B97Cd43BAA19830bE885F16Bc1c6
 
 
 # Legal information
